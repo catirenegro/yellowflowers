@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas para ti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Pinyon Script', cursive;
+            color: #333;
+        }
+        #imagen1 {
+            max-width: 80%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        #carta {
+            max-width: 60%;
+            height: auto;
+            position: relative;
+        }
+        #texto-carta {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            background: transparent;
+            border: none;
+            resize: none;
+            font-size: 24px;
+            color: #555;
+            text-align: center;
+            font-family: 'Pinyon Script', cursive;
+        }
+    </style>
+</head>
+<body>
+    <img id="imagen1" src="imagen1.png" alt="Imagen 1">
+    <div style="position: relative;">
+        <img id="carta" src="carta.png" alt="Carta">
+        <textarea id="texto-carta" placeholder="Querida Bobinovia,  
+
+Hay momentos en la vida que parecen suspendidos en el tiempo, como si el universo respirara en pausas lentas para recordarnos la belleza de existir. Este instante, mientras la melodía de Golden Hour fluye, es uno de ellos. Y quiero que lo sientas conmigo, que cierres los ojos y dejes que cada nota te lleve a ese lugar donde solo somos tú y yo, donde el tiempo se desvanece y solo queda el latido de nuestro amor.  
+
+Eres como la luz dorada que besa el horizonte al atardecer, cálida, suave y eterna. Cada nota de esta canción es un eco de tu risa, un reflejo de tu mirada, un susurro de tu presencia. Contigo, el mundo se llena de colores que nunca antes había visto, de matices que solo tú puedes crear. Eres mi musa, mi inspiración, mi razón para creer en la magia.  
+
+Hoy, mientras escribo estas palabras, pienso en las flores amarillas que tanto nos gustan. Esas pequeñas joyas de la naturaleza que parecen capturar el sol en sus pétalos, como si guardaran un pedacito de luz para iluminar los días grises. Cada vez que las veo, pienso en ti. En tu alegría, en tu calidez, en esa forma única que tienes de hacer que todo a tu alrededor brille. Las flores amarillas son como tú: vibrantes, llenas de vida y capaces de transformar cualquier lugar en un paraíso.  
+
+Cuando pienso en ti, siento que vuelo. Sí, como si las alas que llevaba escondidas por tanto tiempo finalmente se desplegaran y me llevaran a un lugar donde solo existimos tú y yo. Un lugar donde el tiempo no importa, donde las palabras sobran, porque todo lo que necesito decirte lo puedes sentir en mi silencio, en mi abrazo, en cada latido de mi corazón.  
+
+Eres mi refugio, mi complicidad, mi razón para creer en el amor. Contigo, cada día es una nueva melodía, una nueva historia que escribimos juntos. Y aunque sé que no soy perfecto, quiero que sepas que siempre estaré aquí, intentando ser la persona que te haga sentir tan especial como tú me haces sentir a mí.  
+
+Hoy, mientras esta melodía fluye, quiero que cierres los ojos y sientas lo mismo que yo: que el amor que nos une es tan grande que no cabe en este mundo, que es tan puro que parece sacado de un sueño, y que es tan eterno como las estrellas que nos miran desde arriba.  
+
+Te amo más de lo que las palabras pueden expresar, más de lo que el tiempo puede medir. Eres mi todo, mi siempre, mi aquí y ahora.  
+
+Con todo mi corazón, Tu Bobinovio
+"></textarea>
+    </div>
+    <audio autoplay loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
